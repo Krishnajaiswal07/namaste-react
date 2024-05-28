@@ -1,3 +1,112 @@
-#heading{
-    color:red;
+.header{
+     display: flex;
+     justify-content: space-between;
+     border: 1px solid black;
+}
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 100px;
+}
+
+.nav-items>ul{
+    display: flex;
+    position:relative;
+    right: 10px;
+    font-size: 20px;
+    list-style-type: none;
+}
+.nav-items>ul>li{
+    margin: 10px;
+    padding: 10px;
+}
+.res-card{
+    width: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    background-color: #f8f8f8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+   
+}
+.res-card:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor:pointer;
+}
+.res-logo{
+    width: 100%;
+    border-radius:20px;
+}
+
+ .res-content{
+   padding: 10px;
+ }
+.res-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.filter-btn{
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 2px rgb(0,0,0,0.2);
+    background-color: #fcf9f9;
+}
+.filter-btn:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.shimmer-container{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+.shimmer-card{
+    width: 200px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    margin: 20px;
+
+}
+.login-btn{
+    padding: 0px 20px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: greenyellow;
+    box-shadow: 0px 2px 4px rgb(212, 206, 206);
+}
+.login-btn:hover{
+    cursor: pointer;
+    border: 1px solid greenyellow;
+}
+.filter{
+    display: flex;
+}
+.Search{
+    margin: 30px;
+}
+.search-btn{
+    margin: 5px;
+    background-color: white;
+    font-size: 15px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) ;
+    padding: 5px;
+    border-radius: 20px;
+}
+.search-btn:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.search-box{
+    width: 150px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
